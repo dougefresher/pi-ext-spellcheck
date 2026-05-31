@@ -1,0 +1,38 @@
+{
+  "name": "pi-ext-spellcheck",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Codebook-powered spell checking for pi-coding-agent",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dougefresher/pi-ext-spellcheck"
+  },
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "codebook",
+    "spellcheck"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "scripts": {
+    "check": "biome check --write --error-on-warnings . && tsc --noEmit",
+    "changeset": "changeset add --message"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.12",
+    "@changesets/cli": "^2.31.0",
+    "@earendil-works/pi-coding-agent": "^0.77.0",
+    "@types/node": "^24.12.4",
+    "typescript": "^5.9.3"
+  }
+}
