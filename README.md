@@ -6,7 +6,7 @@ Requires [`codebook-lsp`](https://github.com/blopker/codebook) on your `$PATH`.
 
 ## Usage
 
-In pi, press `ctrl+s` to spell check the current editor content.
+In pi, press `ctrl+;` to spell check the current editor content.
 
 For each misspelled word:
 - Select the word from the list
