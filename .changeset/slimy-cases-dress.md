@@ -1,0 +1,3 @@
+---
+"pi-ext-spellcheck": patch
+---
